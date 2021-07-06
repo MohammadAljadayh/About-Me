@@ -1,13 +1,18 @@
 header{
 text-align: center;
-background-color: antiquewhite;
+background-color:honeydew;
+width: 1150px;
+border: 15px solid grey;
+padding: 0px;
+margin: 20px;
 
 }
 
 .Details
 {
    text-align:center;
-   background-color: antiquewhite;
+   background-color:honeydew;
+
 
 
 }
@@ -15,12 +20,23 @@ background-color: antiquewhite;
 .intro
 {
     text-align:center;
+    
 
 }
 
 main{
 
-    background-color: antiquewhite;
+    background-color:honeydew;
+    width: 1150px;
+    border: 15px solid grey;
+    padding: 0px;
+    margin: 20px;
+}
+
+.d1
+{
+    border: 10px solid grey;
+    
 }
 
 
