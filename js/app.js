@@ -82,6 +82,7 @@ else {
 }
 LTUC();
 
+function guessingNumber(){
 alert(' you have 4 chance to guess number. between 1-10 ');
 
 for (let i = 0; i < 4; i++) {
@@ -106,6 +107,8 @@ for (let i = 0; i < 4; i++) {
     }
 
 }
+}
+guessingNumber();
 
 alert(' you have 6 chance to guess one of the best Fruits');
 
