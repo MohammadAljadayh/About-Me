@@ -6,6 +6,8 @@ console.log('this is for user name', userName);
 
 alert('hello ' + userName);
 let score = 0;
+function age1(){
+
 
 let age = prompt('Are You Age  Between 20 to 30 ');
 age = age.toLowerCase();
@@ -17,6 +19,9 @@ if (age == 'yes' || age == 'y') {
 else {
     alert(' You Chice No ');
 }
+}
+age1();
+
 
 let animal = prompt('are you like cat');
 
