@@ -52,6 +52,7 @@ else {
 }
 car();
 
+function mobile(){
 let mobile = prompt('are you like iphone Phone')
 
 mobile = mobile.toLowerCase();
@@ -63,6 +64,8 @@ if (mobile == 'yes' || mobile == 'y') {
 else {
     alert('Also  Me Too :) ');
 }
+}
+mobile();
 
 let LTUC = prompt('are you like LTUC')
 
