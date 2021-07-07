@@ -110,6 +110,7 @@ for (let i = 0; i < 4; i++) {
 }
 guessingNumber();
 
+function Fruits(){
 alert(' you have 6 chance to guess one of the best Fruits');
 
 let Fruits = ['banana', 'apple', 'grape', 'orange', 'Watermelon'];
@@ -135,6 +136,8 @@ alert(" oh no you dont have any other  chance ")
   }
  
 }
+}
+Fruits();
 
 alert("all the true answers for the 7th qustion one of these fruits 'banana'+ 'apple'+ 'grape'+ 'orange'+'Watermelon' " )
 
