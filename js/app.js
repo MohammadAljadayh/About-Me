@@ -37,6 +37,7 @@ else {
 }
 animal();
 
+function car(){
 let car = prompt('are you like mazda car');
 
 car = car.toLowerCase();
@@ -48,6 +49,8 @@ if (car == 'yes' || car == 'y') {
 else {
     alert('Also  Me Too :) ');
 }
+}
+car();
 
 let mobile = prompt('are you like iphone Phone')
 
