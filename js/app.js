@@ -22,7 +22,7 @@ else {
 }
 age1();
 
-
+function animal(){
 let animal = prompt('are you like cat');
 
 animal = animal.toLowerCase();
@@ -34,6 +34,8 @@ if (animal == 'yes' || animal == 'y') {
 else {
     alert(' Me Too :) ');
 }
+}
+animal();
 
 let car = prompt('are you like mazda car');
 
