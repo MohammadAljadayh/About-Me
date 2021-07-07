@@ -6,6 +6,8 @@ console.log('this is for user name', userName);
 
 alert('hello ' + userName);
 let score = 0;
+function age1(){
+
 
 let age = prompt('Are You Age  Between 20 to 30 ');
 age = age.toLowerCase();
@@ -17,7 +19,10 @@ if (age == 'yes' || age == 'y') {
 else {
     alert(' You Chice No ');
 }
+}
+age1();
 
+function animal(){
 let animal = prompt('are you like cat');
 
 animal = animal.toLowerCase();
@@ -29,7 +34,10 @@ if (animal == 'yes' || animal == 'y') {
 else {
     alert(' Me Too :) ');
 }
+}
+animal();
 
+function car(){
 let car = prompt('are you like mazda car');
 
 car = car.toLowerCase();
@@ -41,7 +49,10 @@ if (car == 'yes' || car == 'y') {
 else {
     alert('Also  Me Too :) ');
 }
+}
+car();
 
+function mobile(){
 let mobile = prompt('are you like iphone Phone')
 
 mobile = mobile.toLowerCase();
@@ -53,7 +64,10 @@ if (mobile == 'yes' || mobile == 'y') {
 else {
     alert('Also  Me Too :) ');
 }
+}
+mobile();
 
+function LTUC(){
 let LTUC = prompt('are you like LTUC')
 
 LTUC = LTUC.toLowerCase();
@@ -65,7 +79,10 @@ if (LTUC == 'yes' || LTUC == 'y') {
 else {
     alert('oh no this one of the best college in the jordan');
 }
+}
+LTUC();
 
+function guessingNumber(){
 alert(' you have 4 chance to guess number. between 1-10 ');
 
 for (let i = 0; i < 4; i++) {
@@ -90,7 +107,10 @@ for (let i = 0; i < 4; i++) {
     }
 
 }
+}
+guessingNumber();
 
+function Fruits(){
 alert(' you have 6 chance to guess one of the best Fruits');
 
 let Fruits = ['banana', 'apple', 'grape', 'orange', 'Watermelon'];
@@ -116,6 +136,8 @@ alert(" oh no you dont have any other  chance ")
   }
  
 }
+}
+Fruits();
 
 alert("all the true answers for the 7th qustion one of these fruits 'banana'+ 'apple'+ 'grape'+ 'orange'+'Watermelon' " )
 
