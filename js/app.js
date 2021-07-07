@@ -67,6 +67,7 @@ else {
 }
 mobile();
 
+function LTUC(){
 let LTUC = prompt('are you like LTUC')
 
 LTUC = LTUC.toLowerCase();
@@ -78,6 +79,8 @@ if (LTUC == 'yes' || LTUC == 'y') {
 else {
     alert('oh no this one of the best college in the jordan');
 }
+}
+LTUC();
 
 alert(' you have 4 chance to guess number. between 1-10 ');
 
