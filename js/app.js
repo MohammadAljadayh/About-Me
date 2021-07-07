@@ -110,10 +110,14 @@ for (let i = 0; i < 6 && !loopc;i++) {
         }
 
     }
-
+  if (i===5)
+  {
+alert(" oh no you dont have any other  chance ")
+  }
+ 
 }
 
 alert("all the true answers for the 7th qustion one of these fruits 'banana'+ 'apple'+ 'grape'+ 'orange'+'Watermelon' " )
 
-alert("your score is " + " " + score);
+alert("your score is " + " " + score + "/7");
 
