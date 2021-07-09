@@ -1,8 +1,8 @@
 header{
 text-align: center;
-background-color:honeydew;
+background-color:#FAFDFD;
 width: 1150px;
-border: 15px solid grey;
+border: 15px solid #33DACA ;
 padding: 0px;
 margin: 20px;
 
@@ -11,7 +11,7 @@ margin: 20px;
 .Details
 {
    text-align:center;
-   background-color:honeydew;
+   background-color:#FAFDFD;
 
 
 
@@ -20,23 +20,32 @@ margin: 20px;
 .intro
 {
     text-align:center;
-    
+    font-family: 'Staatliches', cursive;
 
 }
 
 main{
 
-    background-color:honeydew;
+    background-color:#FAFDFD;
     width: 1150px;
-    border: 15px solid grey;
+    border: 15px solid #33DACA ;
     padding: 0px;
     margin: 20px;
 }
 
 .d1
 {
-    border: 10px solid grey;
+    border: 8px solid #33DACA ;
     
+}
+body {
+	max-width: 800px;
+	max-height: 1000px;
+	font-family: Source Sans Pro;
+	font-size: 12px;
+	font-size: 1rem;
+	z-index: 0;
+	margin: 0px;
 }
 
 

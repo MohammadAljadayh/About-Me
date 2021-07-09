@@ -2,10 +2,10 @@
 
 let userName = prompt('what\'s your name?');
 
-console.log('this is for user name', userName);
 
 alert('hello ' + userName);
 let score = 0;
+
 function age1(){
 
 
@@ -86,7 +86,6 @@ function guessingNumber(){
 alert(' you have 4 chance to guess number. between 1-10 ');
 
 for (let i = 0; i < 4; i++) {
-    console.log("we are here ")
 
     let Number = prompt('try to guess number. between 1-10 to check if YOU are Lucky or not :)')
     if (Number != 7 && i == 3) {
